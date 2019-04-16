@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title><h6>Calculo Nota 128 Horas</h6></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item>
+      <ion-grid>
+        <ion-button color="success"(click)="asig128epe1()"> EPE 1 </ion-button>
+       <ion-label  text-center text-wrap>{{this.varEntrada128epe1}}</ion-label>
+          </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-grid>
+        <ion-button color="success"(click)="asig128epe2()"> EPE 2 </ion-button>
+       <ion-label  text-center text-wrap>{{this.varEntrada128epe2}}</ion-label>
+          </ion-grid>
+    </ion-item>
+    <ion-item>
+        <ion-grid>
+            <ion-button color="success"(click)="asig128epe3()"> EPE 3 </ion-button>
+            <ion-label  text-center text-wrap>{{this.varEntrada128epe3}}</ion-label>
+        </ion-grid>
+      </ion-item>
+      <ion-item>
+        <ion-grid>
+            <ion-button color="success"(click)="asig128epe4()"> EPE 4 </ion-button>
+            <ion-label  text-center text-wrap>{{this.varEntrada128epe4}}</ion-label>
+        </ion-grid>
+      </ion-item>
+      <ion-item>
+          <ion-grid>
+              <ion-button color="success"(click)="asig128eva1()"> EVA 1 </ion-button>
+              <ion-label  text-center text-wrap>{{this.varEntrada128eva1}}</ion-label>
+          </ion-grid>
+        </ion-item>
+        <ion-item>
+            <ion-grid>
+                <ion-button color="success"(click)="asig128eva2()"> EVA 2 </ion-button>
+                <ion-label  text-center text-wrap>{{this.varEntrada128eva2}}</ion-label>
+            </ion-grid>
+          </ion-item>
+          <ion-item>
+            <ion-grid>
+                <ion-button color="success"(click)="asig128eva3()"> EVA 3 </ion-button>
+                <ion-label  text-center text-wrap>{{this.varEntrada128eva3}}</ion-label>
+            </ion-grid>
+          </ion-item>
+          <ion-item>
+            <ion-grid>
+                <ion-button color="success"(click)="asig128eva4()"> EVA 4 </ion-button>
+                <ion-label  text-center text-wrap>{{this.varEntrada128eva4}}</ion-label>
+            </ion-grid>
+          </ion-item>
+          <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="notaPrensentExam128()"> Nota Presentacion </ion-button>
+                  <ion-label  text-center >Nota Presentacion</ion-label>
+                <ion-label  text-center text-wrap>{{this.var128NotaPresentTemp}}</ion-label>
+              </ion-grid>
+            </ion-item>
+          <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="notaMinima128Exam()()"> Nota Minima </ion-button>
+                  <ion-label  text-center >Nota Minima Examen</ion-label>
+                <ion-label  text-center text-wrap>{{this.notaMinima128Examtemp}}</ion-label>
+              </ion-grid>
+            </ion-item>
+            <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="asig128exam()"> Nota Examen </ion-button>
+                  <ion-label  text-center text-wrap>{{this.var128NotaExam}}</ion-label>
+              </ion-grid>
+            </ion-item>
+            <ion-item>
+        <ion-row>
+          <ion-col>
+        <ion-button color="warning"(click)="selector()">   Volver   </ion-button>
+      </ion-col>
+      <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+      <ion-col>
+          <ion-button color="warning"(click)="traspasarDato()">   Calcular   </ion-button>
+      </ion-col>
+        </ion-row>
+        </ion-item>
+</ion-content>

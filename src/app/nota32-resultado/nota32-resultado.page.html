@@ -1,0 +1,162 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+      <ion-title><h6>Calculo 32 Resultado</h6></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+          <ion-col text-center><ion-label  text-center >Nota EPE1 :</ion-label>
+              {{this.varEntrada32epe1}}
+          </ion-col>
+          <ion-col text-center><ion-label  text-center >Nota EPE2 :</ion-label>
+              {{this.varEntrada32epe2}}
+          </ion-col>
+          
+        </ion-row>
+      </ion-grid>
+      <ion-grid>
+          <ion-row>
+            <ion-col>
+               
+            </ion-col>
+            <ion-col>
+               
+            </ion-col>
+            
+          </ion-row>
+        </ion-grid>
+      <ion-grid>
+          <ion-row>
+            <ion-col text-center><ion-label  text-center >Nota EPE3 :</ion-label>
+                {{this.varEntrada32epe3}}
+            </ion-col>
+            <ion-col text-center><ion-label  text-center >Nota EVA1 :</ion-label>
+                {{this.varEntrada32eva1}}
+            </ion-col>
+            
+          </ion-row>
+        </ion-grid>
+        <ion-grid>
+            <ion-row>
+              <ion-col>
+                 
+              </ion-col>
+              <ion-col>
+                 
+              </ion-col>
+              
+            </ion-row>
+          </ion-grid>
+        <ion-grid>
+            <ion-row>
+              <ion-col text-center><ion-label  text-center >Nota EVA2 :</ion-label>
+                  {{this.varEntrada32eva2}}
+              </ion-col>
+              <ion-col text-center><ion-label  text-center >Nota Present.:</ion-label>
+                {{this.var32NotaPresentTemp}}
+              </ion-col>
+              
+            </ion-row>
+          </ion-grid>
+          <ion-grid>
+              <ion-row>
+                <ion-col>
+                   
+                </ion-col>
+                <ion-col>
+                   
+                </ion-col>
+                
+              </ion-row>
+            </ion-grid>
+          <ion-grid>
+              <ion-row>
+                <ion-col>
+                   
+                </ion-col>
+                <ion-col>
+                   
+                </ion-col>
+                
+              </ion-row>
+            </ion-grid>
+            <ion-grid>
+                <ion-row>
+                  <ion-col ><ion-label  text-center >Nota Examen:</ion-label>
+                      {{this.var32NotaExam}}
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+              <ion-grid>
+                  <ion-row>
+                    <ion-col>
+                       
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+                <ion-grid>
+                    <ion-row>
+                      <ion-col><ion-label  text-center >Nota final :</ion-label>
+                        {{this.var32NotaFinal}}
+                      </ion-col>
+                    </ion-row>
+                  </ion-grid>
+                  <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                           
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                  <ion-grid>
+                      <ion-row>
+                        <ion-col  offset="2"><ion-label  text-center >ESTADO :</ion-label>
+                          {{this.var32Estado}}
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                    <ion-grid>
+                        <ion-row>
+                          <ion-col>
+                             
+                          </ion-col>
+                        </ion-row>
+                      </ion-grid>
+                      <ion-grid>
+                          <ion-row>
+                            <ion-col>
+                               
+                            </ion-col>
+                          </ion-row>
+                        </ion-grid>
+                        <ion-grid>
+                            <ion-row>
+                              <ion-col>
+                                 
+                              </ion-col>
+                            </ion-row>
+                          </ion-grid>
+                          <!-- <ion-grid>
+                              <ion-row>
+                                <ion-col>
+                                   
+                                </ion-col>
+                              </ion-row>
+                            </ion-grid> -->
+                      <ion-grid>
+                          <ion-row>
+                            <ion-col text-center>
+                             <ion-button color="success"(click)="Volver()">Volver</ion-button> 
+                            </ion-col>
+                            <ion-col text-center>
+                                <ion-button color="success"(click)="snapshot()"> Guardar</ion-button> 
+                            </ion-col>
+                            
+                          </ion-row>
+                        </ion-grid>
+</ion-content>

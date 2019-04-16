@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title><h6>Calculo Nota 96 Horas</h6></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item>
+      <ion-grid>
+        <ion-button color="success"(click)="asig96epe1()"> EPE 1 </ion-button>
+       <ion-label  text-center text-wrap>{{this.varEntrada96epe1}}</ion-label>
+          </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-grid>
+        <ion-button color="success"(click)="asig96epe2()"> EPE 2 </ion-button>
+       <ion-label  text-center text-wrap>{{this.varEntrada96epe2}}</ion-label>
+          </ion-grid>
+    </ion-item>
+    <ion-item>
+        <ion-grid>
+            <ion-button color="success"(click)="asig96epe3()"> EPE 3 </ion-button>
+            <ion-label  text-center text-wrap>{{this.varEntrada96epe3}}</ion-label>
+        </ion-grid>
+      </ion-item>
+      <ion-item>
+          <ion-grid>
+              <ion-button color="success"(click)="asig96eva1()"> EVA 1 </ion-button>
+              <ion-label  text-center text-wrap>{{this.varEntrada96eva1}}</ion-label>
+          </ion-grid>
+        </ion-item>
+        <ion-item>
+            <ion-grid>
+                <ion-button color="success"(click)="asig96eva2()"> EVA 2 </ion-button>
+                <ion-label  text-center text-wrap>{{this.varEntrada96eva2}}</ion-label>
+            </ion-grid>
+          </ion-item>
+          <ion-item>
+            <ion-grid>
+                <ion-button color="success"(click)="asig96eva3()"> EVA 3 </ion-button>
+                <ion-label  text-center text-wrap>{{this.varEntrada96eva3}}</ion-label>
+            </ion-grid>
+          </ion-item>
+          <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="notaPrensentExam96()"> Nota Presentacion </ion-button>
+                  <ion-label  text-center >Nota Presentacion</ion-label>
+                <ion-label  text-center text-wrap>{{this.var96NotaPresentTemp}}</ion-label>
+              </ion-grid>
+            </ion-item>
+          <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="notaMinima96Exam()()"> Nota Minima </ion-button>
+                  <ion-label  text-center >Nota Minima Examen</ion-label>
+                <ion-label  text-center text-wrap>{{this.notaMinima96Examtemp}}</ion-label>
+              </ion-grid>
+            </ion-item>
+            <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="asig96exam()"> Nota Examen </ion-button>
+                  <ion-label  text-center text-wrap>{{this.var96NotaExam}}</ion-label>
+              </ion-grid>
+            </ion-item>
+            <ion-item>
+        <ion-row>
+          <ion-col>
+        <ion-button color="warning"(click)="selector()">   Volver   </ion-button>
+      </ion-col>
+      <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+      <ion-col>
+          <ion-button color="warning"(click)="traspasarDato()">   Calcular   </ion-button>
+      </ion-col>
+        </ion-row>
+        </ion-item>
+</ion-content>

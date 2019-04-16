@@ -1,0 +1,82 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+      <ion-title><h6>Calculo Nota 32 Horas</h6></ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+    <ion-item>
+        <ion-grid>
+          <ion-button color="success"(click)="asig32epe1()"> EPE 1 </ion-button>
+         <ion-label  text-center text-wrap>{{this.varEntrada32epe1}}</ion-label>
+            </ion-grid>
+      </ion-item>
+      <ion-item>
+        <ion-grid>
+          <ion-button color="success"(click)="asig32epe2()"> EPE 2 </ion-button>
+         <ion-label  text-center text-wrap>{{this.varEntrada32epe2}}</ion-label>
+            </ion-grid>
+      </ion-item>
+      <ion-item>
+          <ion-grid>
+              <ion-button color="success"(click)="asig32epe3()"> EPE 3 </ion-button>
+              <ion-label  text-center text-wrap>{{this.varEntrada32epe3}}</ion-label>
+          </ion-grid>
+        </ion-item>
+        <ion-item>
+            <ion-grid>
+                <ion-button color="success"(click)="asig32eva1()"> EVA 1 </ion-button>
+                <ion-label  text-center text-wrap>{{this.varEntrada32eva1}}</ion-label>
+            </ion-grid>
+          </ion-item>
+          <ion-item>
+              <ion-grid>
+                  <ion-button color="success"(click)="asig32eva2()"> EVA 2 </ion-button>
+                  <ion-label  text-center text-wrap>{{this.varEntrada32eva2}}</ion-label>
+              </ion-grid>
+            </ion-item>
+            <ion-item>
+                <ion-grid>
+                    <ion-button color="success"(click)="notaPrensentExam32()"> Nota Presentacion </ion-button>
+                    <ion-label  text-center >Nota Presentacion</ion-label>
+                  <ion-label  text-center text-wrap>{{this.var32NotaPresentTemp}}</ion-label>
+                </ion-grid>
+              </ion-item>
+            <ion-item>
+                <ion-grid>
+                    <ion-button color="success"(click)="notaMinima32Exam()()"> Nota Minima </ion-button>
+                    <ion-label  text-center >Nota Minima Examen</ion-label>
+                  <ion-label  text-center text-wrap>{{this.notaMinima32Examtemp}}</ion-label>
+                </ion-grid>
+              </ion-item>
+              <ion-item>
+                <ion-grid>
+                    <ion-button color="success"(click)="asig32exam()"> Nota Examen </ion-button>
+                    <ion-label  text-center text-wrap>{{this.var32NotaExam}}</ion-label>
+                </ion-grid>
+              </ion-item>
+              <ion-item>
+          <ion-row>
+            <ion-col>
+          <ion-button href="#" color="warning"(click)="selector()">   Volver   </ion-button>
+        </ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        
+        
+        <ion-col>
+            <ion-button href="#" color="warning"(click)="traspasarDato()">   Calcular   </ion-button>
+        </ion-col>
+          </ion-row>
+          </ion-item>
+</ion-content>
